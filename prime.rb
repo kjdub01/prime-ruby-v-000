@@ -6,4 +6,4 @@ def prime?(i)
   return false if i <= 1 || i % divisor == 0
  end
 end
-binding.pry
+
