@@ -5,5 +5,6 @@ def prime?(i)
  divisors.any? do |divisor|
   return false if i <= 1 || i % divisor == 0
  end
+ true
 end
 
