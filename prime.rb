@@ -3,6 +3,7 @@ require 'pry'
 def prime?(i)
  divisors = (2..(i - 1)).to_a  
  divisors.any? { |divisor| i % divisor == 0 } || i <= 1? false :  true
+ end
 =begin
 def prime?(integer)
   test_divisors = (2..(integer - 1)).to_a
